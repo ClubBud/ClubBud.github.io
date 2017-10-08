@@ -34,16 +34,16 @@ $('body').scrollspy({
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function () {
     "use strict";
-    
+
     $('.navbar-toggle:visible').click();
 });
-    
-    
 
-    
+
+
+
     /*--------------------------------------------------*/
     /* Counter*/
-    /*--------------------------------------------------*/ 
+    /*--------------------------------------------------*/
         $(document).ready(function () {
 
                 $('.timer').countTo();
@@ -51,36 +51,8 @@ $('.navbar-collapse ul li a').click(function () {
                 $('.counter-item').appear(function() {
                     $('.timer').countTo();
                 },{accY: -100});
-            
+
         });
-            
-        
-
-
-
-
-
-	
-
-////------- Testimonial Section
-
-$(document).ready(function() {
- 
-  $(".testimonial-section").owlCarousel({
-        pagination: false,
-        navigation : true,
-        slideSpeed : 2500,
-		stopOnHover: true,
-    	autoPlay: 3000,
-    	singleItem:false,
-        itemsMobile : [550,1],
-        itemsDesktopSmall : [991,2],
-        items: 3,
-		transitionStyle : "fade",
-		navigationText: ['<i class="fa fa-chevron-left"></i>','<i class="fa fa-chevron-right"></i>']
-  });
- 
-});
 
 
 
@@ -88,7 +60,7 @@ $(document).ready(function() {
 ////------- Partner/CLients
 
 $(document).ready(function() {
- 
+
   $(".clients").owlCarousel({
         pagination: false,
         navigation : true,
@@ -102,7 +74,7 @@ $(document).ready(function() {
 		transitionStyle : "fade",
 		navigationText: ['<i class="fa fa-chevron-left"></i>','<i class="fa fa-chevron-right"></i>']
   });
- 
+
 });
 
 
@@ -114,7 +86,7 @@ $(document).ready(function() {
 
 $(document).ready(function ($) {
     "use strict";
-    
+
     // skills animation
     $('#skill-section').waypoint({
         handler: function(event, direction) {
@@ -124,28 +96,28 @@ $(document).ready(function ($) {
             });
         },
         offset: '60%'
-    });        
-        
+    });
+
 });
 
 
 $ ( function () {
 
 	$(".video").fitVids();
-	
+
 });
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
 /* ------------------------------------------------------*/
-// Start Sidenav Section 
+// Start Sidenav Section
 /* ------------------------------------------------------ */
 
 (function () {
-    
+
     "use strict";
 	var bodyEl = document.body,
 		content = document.querySelector('.content-wrap'),
@@ -163,7 +135,7 @@ $ ( function () {
 			closebtn.addEventListener('click', toggleMenu);
 		}
 
-		
+
 	}
 
 	function toggleMenu() {
@@ -173,12 +145,10 @@ $ ( function () {
 		    else {
                 classie.add(bodyEl, 'show-menu');
 		    }
-        
+
 		isOpen = !isOpen;
 	}
 
 	init();
 
 })();
-
-
