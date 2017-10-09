@@ -2,9 +2,26 @@ body {
   background: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/congruent_pentagon.png");
 }
 
+.log-in-form {
+  width: 310px;
+  height: 320px;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+
+  border-radius: 5px;
+  overflow: hidden;
+
+  background-color: #FDFDFD;
+}
+
 .sign-up-form {
   width: 310px;
-  height: 385px;
+  height: 400px;
 
   position: absolute;
   top: 0;
@@ -24,7 +41,7 @@ body {
   width: auto;
   height: 70px;
   background-color: #333A44;
-  background-image: url('http://gravatar.com/avatar/6e58b3fa5297e23a66505477b49de967?s=80&d=https://codepen.io/assets/avatars/user-avatar-80x80-fd2a2ade7f141e06f8fd94c000d6ac7a.png');
+  /*background-image: url('http://gravatar.com/avatar/6e58b3fa5297e23a66505477b49de967?s=80&d=https://codepen.io/assets/avatars/user-avatar-80x80-fd2a2ade7f141e06f8fd94c000d6ac7a.png');*/
   background-repeat: no-repeat;
   background-attachment: relative;
   background-position: center;
